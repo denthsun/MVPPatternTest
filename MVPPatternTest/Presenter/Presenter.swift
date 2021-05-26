@@ -30,6 +30,7 @@ class FactPresenter {
             do {
                 let fact = try JSONDecoder().decode(DayFact.self, from: data)
                 self?.delegate?.presentFact(fact: fact)
+                print(fact.url)
             } catch {
                 print(error)
             }

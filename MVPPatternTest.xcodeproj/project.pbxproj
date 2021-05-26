@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		332C39260D9CFD4CE7515794 /* Pods_MVPPatternTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C50BC074F927EF2D4787CA /* Pods_MVPPatternTest.framework */; };
+		E414FEE6265EBEEC007B4D6F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414FEE5265EBEEC007B4D6F /* GradientView.swift */; };
 		E48D757C265D827900E07222 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D757B265D827900E07222 /* GradientButton.swift */; };
 		E48D757F265D853D00E07222 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D757E265D853D00E07222 /* PhotoViewController.swift */; };
 		E48D7582265D854800E07222 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D7581265D854800E07222 /* VideoViewController.swift */; };
@@ -25,6 +26,7 @@
 		060CEB7AB8631AE13DD00809 /* Pods-MVPPatternTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPPatternTest.debug.xcconfig"; path = "Target Support Files/Pods-MVPPatternTest/Pods-MVPPatternTest.debug.xcconfig"; sourceTree = "<group>"; };
 		A3C50BC074F927EF2D4787CA /* Pods_MVPPatternTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVPPatternTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA985D273F0CC5F4A47A0CA /* Pods-MVPPatternTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVPPatternTest.release.xcconfig"; path = "Target Support Files/Pods-MVPPatternTest/Pods-MVPPatternTest.release.xcconfig"; sourceTree = "<group>"; };
+		E414FEE5265EBEEC007B4D6F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		E48D757B265D827900E07222 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		E48D757E265D853D00E07222 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		E48D7581265D854800E07222 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +68,6 @@
 				060CEB7AB8631AE13DD00809 /* Pods-MVPPatternTest.debug.xcconfig */,
 				CBA985D273F0CC5F4A47A0CA /* Pods-MVPPatternTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				E48D757B265D827900E07222 /* GradientButton.swift */,
+				E414FEE5265EBEEC007B4D6F /* GradientView.swift */,
 				E4B0C7B0265D7C2E00FCBA0C /* ViewAnchorExt.swift */,
 			);
 			path = Extensions;
@@ -254,6 +256,7 @@
 			files = (
 				E48D757C265D827900E07222 /* GradientButton.swift in Sources */,
 				E4DE3E03265D758500EB44DE /* ViewController.swift in Sources */,
+				E414FEE6265EBEEC007B4D6F /* GradientView.swift in Sources */,
 				E48D7582265D854800E07222 /* VideoViewController.swift in Sources */,
 				E4B0C7B1265D7C2E00FCBA0C /* ViewAnchorExt.swift in Sources */,
 				E4DE3DFF265D758500EB44DE /* AppDelegate.swift in Sources */,

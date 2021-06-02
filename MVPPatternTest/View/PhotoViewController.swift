@@ -28,7 +28,7 @@ class PhotoViewController: UIViewController {
         titleLabel.textColor = .red
         titleLabel.textAlignment = .center
         
-        image.contentMode = .scaleAspectFill
+        image.contentMode = .scaleAspectFit
     }
     
     func constraint() {

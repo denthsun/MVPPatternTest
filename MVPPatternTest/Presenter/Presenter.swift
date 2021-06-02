@@ -17,6 +17,7 @@ protocol FactPresenterDelegate: AnyObject {
 
 typealias PresenterDelegate = FactPresenterDelegate & UIViewController
 
+
 class FactPresenter {
     
     let requestUrl = "https://api.nasa.gov/planetary/apod?api_key=Iev45RfuUJZgaHAWlQ2qulPwSWDjS3DdkBjqXVD1"
